@@ -14,7 +14,7 @@ links.forEach(function(link){
     content.classList.add('animate__animated');
     // retardamos la salida para ver la animacion
     setTimeout(function(){
-        location.href = "/ProyectoNuevo/";
+        location.href = "/";
     },800);
 
     return false;
